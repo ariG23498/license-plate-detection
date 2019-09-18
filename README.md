@@ -3,9 +3,12 @@
 This repo is the API for the `Detection` of a license plate.
 
 # Usage:
-There is a `humAin.yml` file in the repository.<br>
-`cd` into the folder and `conda env create -f <environment-name>.yml`<br>
+`cd` into the folder and `conda create --name <environment name>`<br>
 Now that the `environment` is ready, get inside the `environment`.<br>
+After that
+* `conda install tensorflow`
+* `pip install Flask`
+* `conda install opencv`
 `cd` into object detection folder and run `app.py`, this will host a `RESTful` api.<br>
 The API endpoint for the predictions is `<base url>/predict` which takes a `HTTP POST` and an image in the form-data.
  
