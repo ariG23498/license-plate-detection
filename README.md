@@ -8,7 +8,9 @@ Now that the `environment` is ready, get inside the `environment`.<br>
 After that
 * `conda install tensorflow`
 * `pip install Flask`
+* `pip install pillow`
 * `conda install opencv`
+
 `cd` into object detection folder and run `app.py`, this will host a `RESTful` api.<br>
 The API endpoint for the predictions is `<base url>/predict` which takes a `HTTP POST` and an image in the form-data.
  
