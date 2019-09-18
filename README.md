@@ -3,7 +3,7 @@
 This repo is the API for the `Detection` of a license plate.
 
 # Usage:
-There is a `requirements.txt` file in the repository.<br>
+There is a `humAin.yml` file in the repository.<br>
 `cd` into the folder and `conda env create -f <environment-name>.yml`<br>
 Now that the `environment` is ready, get inside the `environment`.<br>
 `cd` into object detection folder and run `app.py`, this will host a `RESTful` api.<br>
