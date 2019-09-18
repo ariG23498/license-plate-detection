@@ -1,6 +1,14 @@
 # license-plate-detection
 `TCS humAIn`
 This repo is the API for the `Detection` of a license plate.
+
+# Usage:
+There is a `requirements.txt` file in the repository.<br>
+`cd` into the folder and `conda env create -f <environment-name>.yml`<br>
+Now that the `environment` is ready, get inside the `environment`.<br>
+`cd` into object detection folder and run `app.py`, this will host a `RESTful` api.<br>
+The API endpoint for the predictions is `<base url>/predict` which takes a `HTTP POST` and an image in the form-data.
+ 
 # Input
 Let's check our model shall we?<br>
 <img src="check.jpg" height=300 width=400>
